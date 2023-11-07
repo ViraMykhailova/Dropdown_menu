@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/material-icons/iconfont/material-icons.css"
+    />
+    <link rel="stylesheet" href="./Styles/reset.css" />
+    <link rel="stylesheet" href="./Styles/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list flex-nav">
+            <li class="nav-list-item"><a class="link-txt" href="">Home</a></li>
+            <li class="nav-list-item hover-effect">
+              <div class="dropdown-title flex-menu">
+                <span class="link-txt">Products</span>
+                <span class="material-icons link-plus">add</span>
+              </div>
+              <ul class="dropdown-menu dropdown-parent">
+                <li class="dropdown-item flex-menu border-bottom">
+                  <span class="link-txt">Product 1</span>
+                  <span class="material-icons link-plus">add</span>
+                </li>
+                <li class="dropdown-item">
+                  <div class="dropdown-title flex-menu">
+                    <span class="link-txt">Product 2</span>
+                    <span class="material-icons link-plus">add</span>
+                  </div>
+                  <ul class="dropdown-menu dropdown-child">
+                    <li class="dropdown-item border-bottom">
+                      <a class="link-txt" href="">Sub item</a>
+                    </li>
+                    <li class="dropdown-item">
+                      <a class="link-txt" href="">Sub item</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-list-item"><a class="link-txt" href="">About</a></li>
+            <li class="nav-list-item">
+              <a class="link-txt" href="">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </body>
+</html>
